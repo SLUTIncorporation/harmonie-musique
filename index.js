@@ -32,4 +32,4 @@ client.once('ready', () => {
 
 client.on('error', (error) => console.error(error));
 
-client.login("ODE3NzYwNDk5MjA2NDU1MzA4.YEOM0A.3hh3GgVLdDpH7YVHPj3rukCZgLc");
+client.login(process.env.token);
