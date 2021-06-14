@@ -32,4 +32,4 @@ client.once('ready', () => {
 
 client.on('error', (error) => console.error(error));
 
-client.login('process.env.tokens');
+client.login(process.env.tokens);
